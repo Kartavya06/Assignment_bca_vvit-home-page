@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet"href="Desktop:/style.css">-->
+    <title>Contact Us-VVIT</title>
+	
+	<style>
+form {
+  background-image: url('contactUS.jpg')
+  }
+</style>
+
+  </head>
+
+  
+  
+  <body class="h-100">
+
+ 
+   
+
+    
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+ 
+  
+  
+  <form class="form-horizontal was-validated align-center" id="myForm">
+  <h2 class="text-center">Contact US</h2>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Full Name*</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="yourName" style="width:400px;" placeholder="Enter your Name" required>
+	  <div class="invalid-feedback">Please enter your name.</div>
+    </div>
+	
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email*</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="youremail" style="width:400px;" placeholder="Enter your email" required>
+	  <div class="invalid-feedback">Please enter your email.</div>
+    </div>
+	
+  </div>
+ 
+  
+  
+  <div class="form-group">
+  
+    <label class="control-label col-sm-2" for="ccode">Phone Number*</label>
+    <div class="col-sm-10">
+      <select class="form-select" aria-label="Default select example"style="width:50px;">
+  <option selected>+91</option>
+  <option value="1">+1</option>
+  <option value="2">+92</option>
+  <option value="3">+94</option>
+</select>
+
+  <input type="text" class="form-control" id="phonenumber" maxlength="10"style="width:300px;" placeholder="Enter your mobile number">
+  
+  
+  <div class="invalid-feedback">Please enter your valid mobile number</div>
+    </div>
+  </div>
+   <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Subject*</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="sub" placeholder="Enter Subject" style="width:400px;"required>
+	  <div class="invalid-feedback">Please enter the subject.</div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="msg">Message*</label>
+    <div class="col-sm-10">
+      <textarea  class="form-control" maxlength="10" id="messagearea" placeholder="Please enter your message in 200 characters" required></textarea>
+    <div class="invalid-feedback">Please enter your message</div>
+	</div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  
+  
+
+<button type="button" class="btn btn-info btn-lg" id="submit"data-toggle="modal" data-target="#myModal">Submit</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title text-success"><b>Success!</b></h4>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for your email.Please wait for respone,we will reach out to you soon.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+	  </div>
+	  </div>
+	  <!-- Modal content ends-->
+      </form>
+    </div>
+
+
+  </body>
+</html>
